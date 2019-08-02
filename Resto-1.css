@@ -1,53 +1,159 @@
 header {
-    background-color: url(group.png)
-    
+    background-image: url(Group.png);
+    height: 608px;
+    padding-top: 12px;
 }
 
-a, h1 {
-    font-family: ;
+.links {
+    padding-top: 5px;
+    border-top: 3px solid rgba(178, 174, 194, 0.2);
+    border-bottom: 3px solid rgba(178, 174, 194, 0.2);
+}
+
+a, h1, h4, h3 {
+    font-family: Orbitron;
     text-transform: capitalize;
 }
 
+a, h4, h3 {
+    color: beige;
+}
+
+a {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+.links {
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 3px beige;
+}
+
 .company {
-    
+    display: block;
+    float: left;
+    margin: 0 0 0 100px;
 }
 
 .aboutus {
-    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 250px;
 }
 
 .menu {
-    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 40px;
 }
 
 .receips {
-    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 40px;
 }
 
 .contact {
-    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 40px;
 }
 
 .reserv {
-    
-}
-
-h5 {
-    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 40px;
 }
 
 hgroup {
-    
+    margin-top: 255px;
+    text-align: center;
+}
+
+h5 {
+    font-family: Calligraffitti;
+    color: burlywood;
+    text-shadow: 2px 2px 6px black;
+    letter-spacing: 2px;
+    margin-bottom: -20px;
 }
 
 .welcome {
-    
+    font-size: 42px;
 }
 
 .fiasco {
-    
+    font-size: 68px;
+    color: rgba(113, 111, 115, 1);
+    text-shadow: 2px 2px 6px black;
+    letter-spacing: 5px;
+    padding-top: 18px;
+    border-top: 5px solid rgba(178, 174, 194, 0.2);
+    border-top-style: double;
 }
 
 .what {
-    
+    font-size: 24px;
+    font-weight: 200px;
+    letter-spacing: 2px;
+    margin-top: -55px;
+    color: darkkhaki;
+    text-shadow: 2px 2px 4px black;
+    padding: 6px;
+    border-bottom: 5px solid rgba(178, 174, 194, 0.2);
+    border-bottom-style: double;
+}
+
+.b-border {
+    float: left;
+    margin: 75px 0 0 150px;
+    width: 350px;
+    height: 425px;
+    border: 2px solid darkgoldenrod;
+    background-color: rgba(176, 143, 43, 0.6);
+}
+
+.burger {position: relative;
+    margin: 100px -330px 0 -330px;
+    z-index: 1;
+    border: 3px solid darkgoldenrod;
+    box-shadow: -2px -2px 20px black;
+    float: left;
+}
+
+.fastfood {
+    display: inline;
+    margin: 60px 0 0 60px;
+    padding: 60px 0 0 80px;
+    float: left;
+}
+
+.discover, .tastefull {
+    font-size: 32px;
+    color: darkgoldenrod;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: -25px;
+}
+
+.gastronomy {
+    font-family: Orbitron;
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: "Josefin Sans", Rubik;
+    font-size: 20px;
+}
+
+.tomake {
+    display: block;
 }
