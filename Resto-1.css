@@ -1,22 +1,39 @@
+* {
+    marrgin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    max-width: 1200px;
+}
+
 header {
-    background-image: url(Group.png);
-    height: 608px;
-    padding-top: 12px;
+    display: block;
+    background-image: url(img/joseph-gonzalez-3.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 631px;
+    padding-top: 10px;
 }
 
 .links {
-    padding-top: 5px;
+    padding: 8px 0 3px 0;
     border-top: 3px solid rgba(178, 174, 194, 0.2);
     border-bottom: 3px solid rgba(178, 174, 194, 0.2);
+    text-shadow: 1px 2px 2px black;
 }
 
 a, h1, h4, h3 {
     font-family: Orbitron;
-    text-transform: capitalize;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 a, h4, h3 {
-    color: beige;
+    color: #FFB408;
 }
 
 a {
@@ -29,21 +46,16 @@ a:link {
 
 }
 
-.links {
-    margin-bottom: 100px;
-    text-shadow: 1px 1px 3px beige;
-}
-
 .company {
     display: block;
     float: left;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 80px;
 }
 
 .aboutus {
     display: inline;
     position: relative;
-    margin: 0 0 0 250px;
+    margin: 0 0 0 220px;
 }
 
 .menu {
@@ -71,89 +83,210 @@ a:link {
 }
 
 hgroup {
-    margin-top: 255px;
+    margin-top: 200px;
     text-align: center;
 }
 
 h5 {
     font-family: Calligraffitti;
-    color: burlywood;
-    text-shadow: 2px 2px 6px black;
+    color: #E8A94A;
     letter-spacing: 2px;
     margin-bottom: -20px;
 }
 
+.line-under1 {
+    height: 4px;
+    width: 210px;
+    background-color: rgba(65, 60, 66, 1);
+    box-shadow: 4px 4px 6px #E8A94A;
+}
+
+
+.line-under1 {
+    margin-top: 5px;
+    margin-left: 500px;
+}
+
 .welcome {
+    color: #FFB408;
     font-size: 42px;
+    font-weight: 900;
+    text-shadow: 4px 4px 6px black;
+}
+
+.name{
+    margin-top: 20px;
+}
+
+.line-under2 {
+    height: 7px;
+    width: 600px;
+    background-color: rgba(65, 60, 66, 1);
+    box-shadow: 2px 2px 6px #E8A94A;
+    margin-top: -30px;
+    margin-left: 300px;
 }
 
 .fiasco {
-    font-size: 68px;
-    color: rgba(113, 111, 115, 1);
-    text-shadow: 2px 2px 6px black;
-    letter-spacing: 5px;
-    padding-top: 18px;
-    border-top: 5px solid rgba(178, 174, 194, 0.2);
-    border-top-style: double;
+    font-size: 77px;
+    font-weight: 900;
+    color: rgba(65, 60, 66, 1);
+    text-shadow: 2px 2px 6px #E8A94A;
+    letter-spacing: 6px;
 }
 
+
 .what {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 200px;
-    letter-spacing: 2px;
-    margin-top: -55px;
-    color: darkkhaki;
-    text-shadow: 2px 2px 4px black;
-    padding: 6px;
-    border-bottom: 5px solid rgba(178, 174, 194, 0.2);
-    border-bottom-style: double;
+    letter-spacing: 6px;
+    margin-left: 10px;
+    margin-top: -75px;
+    color: #FFB408;
+    text-shadow: 4px 4px 4px rgba(65, 60, 66, 1);
+}
+
+.sec1 {
+    display: flex;
+    box-sizing: content-box;
+    margin-top: 60px;
+    float: left;
 }
 
 .b-border {
     float: left;
-    margin: 75px 0 0 150px;
-    width: 350px;
-    height: 425px;
-    border: 2px solid darkgoldenrod;
-    background-color: rgba(176, 143, 43, 0.6);
+    margin: 50px 0 0 150px;
+    width: 317px;
+    height: 450px;
+    background-color: rgba(65, 60, 66, 0.6);
 }
 
-.burger {position: relative;
-    margin: 100px -330px 0 -330px;
+.fish {
+    position: relative;
+    margin: 70px -300px 0 -290px;
     z-index: 1;
-    border: 3px solid darkgoldenrod;
+    border: 3px solid #FFB408;
     box-shadow: -2px -2px 20px black;
     float: left;
 }
 
 .fastfood {
-    display: inline;
-    margin: 60px 0 0 60px;
-    padding: 60px 0 0 80px;
+    margin: 120px 0 0 80px;
+    padding: 0 0 20px 80px;
     float: left;
+    height: 320px;
+    width: 415px;
+}
+
+.container {
+    margin: -30px 0 0 -40px;
 }
 
 .discover, .tastefull {
     font-size: 32px;
-    color: darkgoldenrod;
+    color: #FFB408;
     letter-spacing: 3px;
-    text-shadow: 1px 1px 3px black;
-    margin-bottom: -25px;
+    text-shadow: 2px 1px 3px black;
 }
 
-.gastronomy {
+.discover {
+    margin: 30px 0 0 -40px;
+    padding: 5px 0 0 40px;
+    background-color: rgba(65, 60, 66, 0.6);
+    border-bottom: 3px solid #FFB408;
+}
+
+.gastronomy, .receipes {
     font-family: Orbitron;
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 900;
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.P1{
+    width: 420px;
+    margin-bottom: 40px;
 }
 
 p {
-    font-family: "Josefin Sans", Rubik;
-    font-size: 20px;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.seemore1 {
+    margin: 30px 80px 0 -40px;
+    padding: 10px 335px 10px 40px;
+    background-color: rgba(65, 60, 66, 0.6);
+    border-top: 3px solid #FFB408;
+    text-shadow: 2px 1px 2px black;
+    letter-spacing: 3px;
+}
+
+.sec2 {
+    display: flex;
+    box-sizing: content-box;
+    margin-top: 100px;
+    float: left;
 }
 
 .tomake {
-    display: block;
+    position: absolute;
+    float: left;
+    margin: 100px 100px 60px 140px;
+    padding: 0 80px 10px 0;
+    height: 320px;
+    width: 495px;
+}
+
+.tastefull {
+    background-color: rgba(65, 60, 66, 0.6);
+    border-bottom: 3px solid #FFB408;
+    padding: 5px 0 0 40px;
+    width: 455px;
+}
+
+.receipes {
+    margin: 40px 0 0 40px;
+}
+
+.P2 {
+    width: 420px;
+    margin: 30px 0 40px 40px;
+}
+
+.seemore2 {
+    margin-top: 40px;
+    padding: 10px 335px 10px 40px;
+    background-color: rgba(65, 60, 66, 0.6);
+    border-top: 3px solid #FFB408;
+    text-shadow: 2px 1px 2px black;
+    letter-spacing: 3px;
+}
+
+.pumpkin {
+    position: relative;
+    margin: 80px 0 0 650px;
+    z-index: 1;
+    border: 3px solid #FFB408;
+    box-shadow: -2px -2px 20px black;
+    float: left;
+}
+
+.p-border {
+    float: left;
+    margin: 50px 100px 0 -340px;
+    width: 367px;
+    height: 450px;
+    background-color: rgba(65, 60, 66, 0.6);
+}
+
+.height {
+    margin-left: 400px;
+    display: flex;
+    box-sizing: content-box;
+    margin-top: 60px;
+    float: left;
+    height: 500px;
 }
