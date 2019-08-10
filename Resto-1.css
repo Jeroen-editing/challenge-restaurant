@@ -57,10 +57,10 @@ a:link {
 .about-us {
     display: inline;
     position: relative;
-    margin: 0 0 0 160px;
+    margin: 0 0 0 150px;
 }
 
-.menu {
+.menu1 {
     display: inline;
     position: relative;
     margin: 0 0 0 40px;
@@ -145,10 +145,17 @@ h5 {
     text-shadow: 2px 2px 6px rgba(26, 26, 26, 1);
 }
 
+main {
+    display: block;
+    margin-top: -10px;
+    width: 100%;
+    background-color: #F0F3FC;
+}
+
 .sec1 {
     display: block;
     box-sizing: content-box;
-    margin-top: 60px;
+    margin-top: 40px;
     float: left;
 }
 
@@ -170,7 +177,7 @@ h5 {
     position: relative;
     margin: 70px -315px 0 -290px;
     z-index: 1;
-    border: 3px solid #FFB408;
+    border: 4px solid #FFB408;
     box-shadow: -2px -2px 20px black;
 }
 
@@ -262,7 +269,7 @@ p {
 
 .tasteful {
     background-color: rgba(82, 81, 2, 0.5);
-    border-bottom: 3px solid #FFB408;
+    border-bottom: 4px solid #FFB408;
     padding: 5px 0 0 40px;
     width: 455px;
 }
@@ -283,7 +290,7 @@ p {
     margin-top: 40px;
     padding: 10px 323px 10px 40px;
     background-color: rgba(82, 81, 2, 0.5);
-    border-top: 3px solid #FFB408;
+    border-top: 2px solid #FFB408;
     text-shadow: 2px 1px 2px black;
     letter-spacing: 3px;
 }
@@ -294,10 +301,10 @@ p {
 }
 
 .pumpkin {
-    margin: 30px 0 0 -160px;
+    margin: 30px 0 0 -164px;
     position: relative;
     z-index: 1;
-    border: 3px solid #FFB408;
+    border: 4px solid #FFB408;
     box-shadow: 2px 2px 20px black;
     float: left;
 }
@@ -316,4 +323,116 @@ p {
     margin-top: 60px;
     float: left;
     height: 500px;
+}
+
+.in-between-1 {
+    display: inline-block;
+}
+
+.pizza1 {
+    width: 100%;
+    margin: 80px 0;
+}
+
+.end-page1 {
+    border-top: 4px solid #FFB408;
+    border-bottom: 4px solid #FFB408;
+    float: left;
+}
+
+.life-is {
+    position: absolute;
+    float: left;
+    margin: 130px 0 0 600px;
+    color: #EB920A;
+    font-size: 66px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(82, 81, 2, 1);
+}
+
+.line-in1 {
+    position: absolute;
+    float: left;
+    margin: 206px 0 0 260px;
+    height: 4px;
+    width: 880px;
+    background-color: #EB920A;
+    box-shadow: 2px 2px 4px rgba(82, 81, 2, 1);
+}
+
+.sec3 {
+    display: inline-block;
+    box-sizing: content-box;
+    margin: 40px 0 0 150px;
+}
+
+.container-menu {
+    display: inline-block;
+    width: 900px;
+}
+
+.menu2 {
+    display: inline-block;
+    width: 100%;
+    padding-left: 375px;
+    margin-bottom: 10px;
+    font-size: 46px;
+    text-shadow: 2px 1px 2px black;
+}
+
+.bio {
+    padding-left: 295px;
+    color: rgba(82, 81, 2, 1);
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px #EB920A;
+}
+
+.line-under3 {
+    display: inline-block;
+    float: left;
+    margin: 20px 0 40px 0;
+    height: 4px;
+    width: 900px;
+    background-color: #EB920A;
+    box-shadow: 2px 2px 4px rgba(82, 81, 2, 1);
+}
+
+.P3 {
+    width: 860px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-family: "Josefin Sans", Rubik;
+    text-align: center;
+}
+
+.menu-links {
+    margin-bottom: 660px;
+    margin-left: 100px;
+}
+
+.container-nav a {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 6px 14px 2px 14px;
+    color: rgba(82, 81, 2, 1);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px #EB920A;
+    border: 2px solid #FFB408;
+    border-radius: 16px;
+    background-color: rgba(82, 81, 2, 0.2);
+}
+
+.container-nav a:hover {
+    background-color: rgba(82, 81, 2, 0.6);
+}
+
+.container-nav a:active {
+    background-color: rgba(200, 133, 10, 1);
 }

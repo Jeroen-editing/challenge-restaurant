@@ -4,6 +4,8 @@
     <list default="true" id="899b7598-bdf6-45d0-94c2-d1a50a09de2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resto-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Resto-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/piza-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/piza-2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565288593668</updated>
       <workItem from="1565288594886" duration="15172000" />
-      <workItem from="1565391088050" duration="6130000" />
+      <workItem from="1565391088050" duration="14349000" />
     </task>
     <servers />
   </component>
