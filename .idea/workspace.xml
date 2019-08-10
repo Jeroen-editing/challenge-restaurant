@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899b7598-bdf6-45d0-94c2-d1a50a09de2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/challenge-restaurant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoBun-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant+Single.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resto-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Resto-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spicy-eggs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/burger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crusted-chicker-min.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salad-bread-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/salad-bread.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565288593668</updated>
       <workItem from="1565288594886" duration="15172000" />
+      <workItem from="1565391088050" duration="6130000" />
     </task>
     <servers />
   </component>
@@ -74,7 +61,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

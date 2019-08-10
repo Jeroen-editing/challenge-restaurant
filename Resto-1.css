@@ -1,5 +1,5 @@
 * {
-    marrgin: 0 auto;
+    margin: 0 auto;
     padding: 0 auto;
 }
 
@@ -18,10 +18,12 @@ header {
 }
 
 .links {
+    display: block;
+    margin-top: 10px;
     padding: 8px 0 3px 0;
-    border-top: 3px solid rgba(178, 174, 194, 0.2);
-    border-bottom: 3px solid rgba(178, 174, 194, 0.2);
-    text-shadow: 1px 2px 2px black;
+    border-top: 3px solid rgba(128, 128, 3, 0.5);
+    border-bottom: 3px solid rgba(128, 128, 3, 0.5);
+    text-shadow: 1px 2px 2px rgba(64, 63, 2, 1);
 }
 
 a, h1, h4, h3 {
@@ -37,7 +39,7 @@ a, h4, h3 {
 }
 
 a {
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
@@ -52,10 +54,10 @@ a:link {
     margin: 0 0 0 80px;
 }
 
-.aboutus {
+.about-us {
     display: inline;
     position: relative;
-    margin: 0 0 0 220px;
+    margin: 0 0 0 160px;
 }
 
 .menu {
@@ -64,7 +66,7 @@ a:link {
     margin: 0 0 0 40px;
 }
 
-.receips {
+.receipt {
     display: inline;
     position: relative;
     margin: 0 0 0 40px;
@@ -76,14 +78,14 @@ a:link {
     margin: 0 0 0 40px;
 }
 
-.reserv {
+.reserve {
     display: inline;
     position: relative;
     margin: 0 0 0 40px;
 }
 
 hgroup {
-    margin-top: 200px;
+    margin-top: 180px;
     text-align: center;
 }
 
@@ -91,27 +93,23 @@ h5 {
     font-family: Calligraffitti;
     color: #E8A94A;
     letter-spacing: 2px;
-    margin-bottom: -20px;
 }
 
 .line-under1 {
     height: 4px;
-    width: 210px;
-    background-color: rgba(65, 60, 66, 1);
-    box-shadow: 4px 4px 6px #E8A94A;
-}
+    width: 230px;
+    background-color: rgba(82, 81, 2, 1);
+    box-shadow: 2px 2px 4px #EB920A;
+    margin: -10px 0 50px 490px;
 
-
-.line-under1 {
-    margin-top: 5px;
-    margin-left: 500px;
 }
 
 .welcome {
     color: #FFB408;
     font-size: 42px;
     font-weight: 900;
-    text-shadow: 4px 4px 6px black;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 6px rgba(26, 26, 26, 1);
 }
 
 .name{
@@ -121,36 +119,43 @@ h5 {
 .line-under2 {
     height: 7px;
     width: 600px;
-    background-color: rgba(65, 60, 66, 1);
-    box-shadow: 2px 2px 6px #E8A94A;
-    margin-top: -30px;
+    background-color: rgba(82, 81, 2, 1);
+    box-shadow: 2px 2px 4px #EB920A;
+    margin-top: 5px;
     margin-left: 300px;
 }
 
 .fiasco {
     font-size: 77px;
     font-weight: 900;
-    color: rgba(65, 60, 66, 1);
-    text-shadow: 2px 2px 6px #E8A94A;
+    color: rgba(82, 81, 2, 1);
+    text-shadow: 2px 2px 4px #EB920A;
     letter-spacing: 6px;
 }
 
 
 .what {
     font-size: 28px;
-    font-weight: 200px;
-    letter-spacing: 6px;
+    font-weight: 200;
+    letter-spacing: 7px;
+    text-transform: capitalize;
     margin-left: 10px;
-    margin-top: -75px;
+    margin-top: -8px;
     color: #FFB408;
-    text-shadow: 4px 4px 4px rgba(65, 60, 66, 1);
+    text-shadow: 2px 2px 6px rgba(26, 26, 26, 1);
 }
 
 .sec1 {
-    display: flex;
+    display: block;
     box-sizing: content-box;
     margin-top: 60px;
     float: left;
+}
+
+.aside-fast-food {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
 }
 
 .b-border {
@@ -158,19 +163,19 @@ h5 {
     margin: 50px 0 0 150px;
     width: 317px;
     height: 450px;
-    background-color: rgba(65, 60, 66, 0.6);
+    background-color: rgba(82, 81, 2, 0.6);
 }
 
 .fish {
     position: relative;
-    margin: 70px -300px 0 -290px;
+    margin: 70px -315px 0 -290px;
     z-index: 1;
     border: 3px solid #FFB408;
     box-shadow: -2px -2px 20px black;
-    float: left;
 }
 
-.fastfood {
+.fast-food {
+    display: inline-block;
     margin: 120px 0 0 80px;
     padding: 0 0 20px 80px;
     float: left;
@@ -178,11 +183,14 @@ h5 {
     width: 415px;
 }
 
-.container {
-    margin: -30px 0 0 -40px;
+.container-fast-food {
+    margin: 20px 0 0 -140px;
+    padding-left: 40px;
+    padding-bottom: 7px;
+    background-color: rgba(82, 81, 2, 0.2);
 }
 
-.discover, .tastefull {
+.discover, .tasteful {
     font-size: 32px;
     color: #FFB408;
     letter-spacing: 3px;
@@ -190,13 +198,13 @@ h5 {
 }
 
 .discover {
-    margin: 30px 0 0 -40px;
-    padding: 5px 0 0 40px;
-    background-color: rgba(65, 60, 66, 0.6);
-    border-bottom: 3px solid #FFB408;
+    margin-left: -40px;
+    padding: 5px 0 0 60px;
+    background-color: rgba(82, 81, 2, 0.5);
+    border-bottom: 4px solid #FFB408;
 }
 
-.gastronomy, .receipes {
+.gastronomy, .recipes {
     font-family: Orbitron;
     font-size: 24px;
     font-weight: 900;
@@ -204,9 +212,15 @@ h5 {
     letter-spacing: 3px;
 }
 
+.gastronomy {
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
 .P1{
-    width: 420px;
-    margin-bottom: 40px;
+    width: 445px;
+    margin: 20px 0 40px 0;
+    padding-left: 20px;
 }
 
 p {
@@ -215,24 +229,24 @@ p {
     font-size: 18px;
 }
 
-.seemore1 {
+.see-more1 {
     margin: 30px 80px 0 -40px;
-    padding: 10px 335px 10px 40px;
-    background-color: rgba(65, 60, 66, 0.6);
-    border-top: 3px solid #FFB408;
+    padding: 10px 364px 10px 60px;
+    background-color: rgba(82, 81, 2, 0.5);
+    border-top: 2px solid #FFB408;
     text-shadow: 2px 1px 2px black;
     letter-spacing: 3px;
 }
 
 .sec2 {
-    display: flex;
+    display: block;
     box-sizing: content-box;
-    margin-top: 100px;
+    margin-top: 60px;
     float: left;
 }
 
-.tomake {
-    position: absolute;
+.to-make {
+    display: inline-block;
     float: left;
     margin: 100px 100px 60px 140px;
     padding: 0 80px 10px 0;
@@ -240,51 +254,64 @@ p {
     width: 495px;
 }
 
-.tastefull {
-    background-color: rgba(65, 60, 66, 0.6);
+.container-to-make {
+    margin: -10px -20px 0 20px;
+    padding-bottom: 7px;
+    background-color: rgba(82, 81, 2, 0.2);
+}
+
+.tasteful {
+    background-color: rgba(82, 81, 2, 0.5);
     border-bottom: 3px solid #FFB408;
     padding: 5px 0 0 40px;
     width: 455px;
 }
 
-.receipes {
+.recipes {
     margin: 40px 0 0 40px;
+    padding-right: 35px;
+    text-align: right;
 }
 
 .P2 {
     width: 420px;
     margin: 30px 0 40px 40px;
+    text-align: right;
 }
 
-.seemore2 {
+.see-more2 {
     margin-top: 40px;
-    padding: 10px 335px 10px 40px;
-    background-color: rgba(65, 60, 66, 0.6);
+    padding: 10px 323px 10px 40px;
+    background-color: rgba(82, 81, 2, 0.5);
     border-top: 3px solid #FFB408;
     text-shadow: 2px 1px 2px black;
     letter-spacing: 3px;
 }
 
+.aside-to-make {
+    display: inline-block;
+    float: left;
+}
+
 .pumpkin {
+    margin: 30px 0 0 -160px;
     position: relative;
-    margin: 80px 0 0 650px;
     z-index: 1;
     border: 3px solid #FFB408;
-    box-shadow: -2px -2px 20px black;
+    box-shadow: 2px 2px 20px black;
     float: left;
 }
 
 .p-border {
-    float: left;
-    margin: 50px 100px 0 -340px;
+    margin: 10px -100px 0 -130px;
     width: 367px;
     height: 450px;
-    background-color: rgba(65, 60, 66, 0.6);
+    background-color: rgba(82, 81, 2, 0.6);
 }
 
 .height {
     margin-left: 400px;
-    display: flex;
+    display: block;
     box-sizing: content-box;
     margin-top: 60px;
     float: left;
