@@ -1,0 +1,330 @@
+* {
+  margin: 0 auto; }
+
+body {
+  width: 1440px; }
+
+a, h1, h4, h3 {
+  font-family: Orbitron, sans-serif; }
+
+h5 {
+  font-family: Calligraffitti, sans-serif;
+  letter-spacing: 2px; }
+
+h1 {
+  text-transform: uppercase; }
+
+a, h4, h3 {
+  color: #edc802; }
+
+a {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-decoration: none; }
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px; }
+
+header {
+  display: block;
+  width: 1440px;
+  height: 692px;
+  padding-top: 10px;
+  background-image: url(../img/header-02.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: darken; }
+  header .links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 0 6px 0;
+    border-top: 3px solid rgba(128, 128, 3, 0.6);
+    border-bottom: 3px solid rgba(128, 128, 3, 0.6);
+    text-shadow: -1px 1px 2px #208507; }
+    header .links .company {
+      display: block;
+      margin: 0 200px 0 40px; }
+    header .links .about-us {
+      display: inline;
+      position: relative;
+      margin: 0 40px 0 0; }
+    header .links .menu1 {
+      display: inline;
+      position: relative;
+      margin: 0 40px 0 0; }
+    header .links .receipt {
+      display: inline;
+      position: relative;
+      margin: 0 040px 0 0; }
+    header .links .contact {
+      display: inline;
+      position: relative;
+      margin: 0 40px 0 0; }
+    header .links .reserve {
+      display: inline;
+      position: relative;
+      margin: 0 40px 0 40px; }
+  header #webtitles hgroup {
+    margin-top: 180px;
+    text-align: center; }
+    header #webtitles hgroup .welcome {
+      color: #e3aa0b;
+      font-size: 55px;
+      letter-spacing: 4px;
+      text-shadow: 2px 2px 1px #ad1600; }
+    header #webtitles hgroup .line-under1 {
+      height: 4px;
+      width: 260px;
+      background-color: #208507;
+      box-shadow: 1px 2px 0 #ad1600;
+      margin: -10px 0 50px 595px; }
+    header #webtitles hgroup .line-above1, header #webtitles hgroup .line-under2 {
+      height: 6px;
+      width: 612px;
+      background-color: #208507;
+      box-shadow: 1px 2px 1px #ad1600;
+      margin-left: 410px; }
+    header #webtitles hgroup .line-above1 {
+      margin-bottom: -20px; }
+    header #webtitles hgroup .name {
+      margin-top: 20px; }
+      header #webtitles hgroup .name .fiasco {
+        font-size: 80px;
+        font-weight: 900;
+        color: #ad1600;
+        text-shadow: 2px 2px 2px #edc802;
+        letter-spacing: 8px; }
+    header #webtitles hgroup .what {
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 8px;
+      text-transform: capitalize;
+      margin-top: -8px;
+      color: #FFB408;
+      text-shadow: 2px 2px 1px #ad1600; }
+    header #webtitles hgroup .line-under2 {
+      margin-top: 10px; }
+  header #headerfooter {
+    margin-top: 207px;
+    border-bottom: 3px solid rgba(128, 128, 3, 0.8); }
+
+main {
+  display: block;
+  margin-top: -10px;
+  width: 100%;
+  background-color: #F0F3FC; }
+  main .sec1 {
+    display: block;
+    box-sizing: content-box;
+    margin-top: 40px;
+    float: left; }
+    main .sec1 .aside-fast-food {
+      display: inline-block;
+      float: left;
+      margin-left: 10px; }
+      main .sec1 .aside-fast-food .b-border {
+        float: left;
+        margin: 50px 0 0 150px;
+        width: 317px;
+        height: 450px;
+        background-color: rgba(82, 81, 2, 0.6); }
+      main .sec1 .aside-fast-food .fish {
+        position: relative;
+        margin: 70px -315px 0 -290px;
+        z-index: 1;
+        border: 4px solid #FFB408;
+        box-shadow: -2px -2px 20px black; }
+    main .sec1 .fast-food {
+      display: inline-block;
+      margin: 120px 0 0 80px;
+      padding: 0 0 20px 80px;
+      float: left;
+      height: 320px;
+      width: 415px; }
+      main .sec1 .fast-food .container-fast-food {
+        margin: 20px 0 0 -140px;
+        padding-left: 40px;
+        padding-bottom: 7px;
+        background-color: rgba(82, 81, 2, 0.2); }
+        main .sec1 .fast-food .container-fast-food .discover, main .sec1 .fast-food .container-fast-food .tasteful {
+          font-size: 32px;
+          color: #FFB408;
+          letter-spacing: 3px;
+          text-shadow: 2px 1px 3px black; }
+        main .sec1 .fast-food .container-fast-food .discover {
+          margin-left: -40px;
+          padding: 5px 0 0 60px;
+          background-color: rgba(82, 81, 2, 0.5);
+          border-bottom: 4px solid #FFB408; }
+        main .sec1 .fast-food .container-fast-food .gastronomy {
+          margin-top: 40px;
+          padding-left: 20px;
+          font-family: Orbitron, sans-serif;
+          font-size: 24px;
+          font-weight: 900;
+          color: black;
+          letter-spacing: 3px; }
+        main .sec1 .fast-food .container-fast-food .P1 {
+          width: 445px;
+          margin: 20px 0 40px 0;
+          padding-left: 20px; }
+        main .sec1 .fast-food .container-fast-food .see-more1 {
+          margin: 30px 80px 0 -40px;
+          padding: 10px 364px 10px 60px;
+          background-color: rgba(82, 81, 2, 0.5);
+          border-top: 2px solid #FFB408;
+          text-shadow: 2px 1px 2px black;
+          letter-spacing: 3px; }
+  main .sec2 {
+    display: block;
+    box-sizing: content-box;
+    margin-top: 60px;
+    float: left; }
+    main .sec2 .to-make {
+      display: inline-block;
+      float: left;
+      margin: 100px 100px 60px 140px;
+      padding: 0 80px 10px 0;
+      height: 320px;
+      width: 495px; }
+      main .sec2 .to-make .container-to-make {
+        margin: -10px -20px 0 20px;
+        padding-bottom: 7px;
+        background-color: rgba(82, 81, 2, 0.2); }
+        main .sec2 .to-make .container-to-make .tasteful {
+          background-color: rgba(82, 81, 2, 0.5);
+          border-bottom: 4px solid #FFB408;
+          padding: 5px 0 0 40px;
+          width: 455px; }
+        main .sec2 .to-make .container-to-make .recipes {
+          margin: 40px 0 0 40px;
+          padding-right: 35px;
+          font-family: Orbitron, sans-serif;
+          font-size: 24px;
+          font-weight: 900;
+          color: black;
+          letter-spacing: 3px;
+          text-align: right; }
+        main .sec2 .to-make .container-to-make .P2 {
+          width: 420px;
+          margin: 30px 0 40px 40px;
+          text-align: right; }
+        main .sec2 .to-make .container-to-make .see-more2 {
+          margin-top: 40px;
+          padding: 10px 323px 10px 40px;
+          background-color: rgba(82, 81, 2, 0.5);
+          border-top: 2px solid #FFB408;
+          text-shadow: 2px 1px 2px black;
+          letter-spacing: 3px; }
+    main .sec2 .aside-to-make {
+      display: inline-block;
+      float: left; }
+      main .sec2 .aside-to-make .pumpkin {
+        margin: 30px 0 0 -164px;
+        position: relative;
+        z-index: 1;
+        border: 4px solid #FFB408;
+        box-shadow: 2px 2px 20px black;
+        float: left; }
+      main .sec2 .aside-to-make .p-border {
+        margin: 10px -100px 0 -130px;
+        width: 367px;
+        height: 450px;
+        background-color: rgba(82, 81, 2, 0.6); }
+
+.in-between-1 {
+  display: inline-block; }
+  .in-between-1 .pizza1 {
+    width: 100%;
+    margin: 80px 0; }
+    .in-between-1 .pizza1 .end-page1 {
+      border-top: 4px solid #FFB408;
+      border-bottom: 4px solid #FFB408;
+      float: left; }
+    .in-between-1 .pizza1 .life-is {
+      position: absolute;
+      float: left;
+      margin: 130px 0 0 600px;
+      color: #EB920A;
+      font-size: 66px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      text-shadow: 2px 2px 4px #525102; }
+    .in-between-1 .pizza1 .line-in1 {
+      position: absolute;
+      float: left;
+      margin: 206px 0 0 260px;
+      height: 4px;
+      width: 880px;
+      background-color: #EB920A;
+      box-shadow: 2px 2px 4px #525102; }
+
+.sec3 {
+  display: inline-block;
+  box-sizing: content-box;
+  margin: 40px 0 0 150px; }
+  .sec3 .container-menu {
+    display: inline-block;
+    width: 900px; }
+    .sec3 .container-menu .menu2 {
+      display: inline-block;
+      width: 100%;
+      padding-left: 375px;
+      margin-bottom: 10px;
+      font-size: 46px;
+      text-shadow: 2px 1px 2px black; }
+    .sec3 .container-menu .bio {
+      padding-left: 295px;
+      color: #525102;
+      font-size: 24px;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      text-shadow: 2px 1px 2px #EB920A; }
+    .sec3 .container-menu .line-under3 {
+      display: inline-block;
+      float: left;
+      margin: 20px 0 40px 0;
+      height: 4px;
+      width: 900px;
+      background-color: #EB920A;
+      box-shadow: 2px 2px 4px #525102; }
+    .sec3 .container-menu .P3 {
+      width: 860px;
+      display: inline-block;
+      margin-bottom: 40px;
+      margin-left: 20px;
+      font-family: "Josefin Sans", Rubik, sans-serif;
+      text-align: center; }
+  .sec3 .menu-links {
+    margin-bottom: 660px;
+    margin-left: 100px; }
+    .sec3 .menu-links .container-nav a {
+      display: inline-block;
+      margin: 0 2px;
+      padding: 6px 14px 2px 14px;
+      color: #525102;
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      text-shadow: 2px 1px 2px #EB920A;
+      border: 2px solid #FFB408;
+      border-radius: 16px;
+      background-color: rgba(82, 81, 2, 0.2); }
+    .sec3 .menu-links .container-nav a:hover {
+      background-color: rgba(82, 81, 2, 0.6); }
+    .sec3 .menu-links .container-nav a:active {
+      background-color: #c8850a; }
+
+.height {
+  margin-left: 400px;
+  display: block;
+  box-sizing: content-box;
+  margin-top: 60px;
+  float: left;
+  height: 500px; }
+
+/*# sourceMappingURL=restostylesheet.css.map */
