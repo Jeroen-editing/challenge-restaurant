@@ -1,4 +1,6 @@
-$titlesGreen: rgba(55, 140, 1, 1);
+//$titlesGreen: rgba(55, 140, 1, 1);
+//$titlesGreen: rgba(48, 122, 1, 1);
+$titlesGreen: rgba(128, 144, 3, 1);
 $titlesYellow: rgba(237, 200, 2, 1);
 $titlesOrangeA: rgba(227, 170, 11, 1);
 $titlesOrangeB: rgba(207, 77, 10, 1);
@@ -64,7 +66,8 @@ header {
     //background-color: rgba(66, 75, 84, 0.6);
     //border-top: 3px solid rgba(128, 128, 3, 0.7);
     //border-bottom: 3px solid rgba(128, 128, 3, 0.7);
-    border: 3px solid rgba(128, 128, 3, 0.7);
+    border: 3px solid rgba(128, 144, 3, 0.7);
+    //border: 3px solid rgba(128, 128, 3, 0.7);
     .company {
       display: block;
       margin: 0 200px 0 40px;
@@ -107,7 +110,7 @@ header {
       //background-color: rgba(66, 75, 84, 0.6);
       //border-top: 3px solid rgba(128, 128, 3, 0.7);
       //border-bottom: 3px solid rgba(128, 128, 3, 0.7);
-      border: 3px solid rgba(128, 128, 3, 0.7);
+      border: 3px solid rgba(128, 144, 3, 0.7);
       .welcome {
         margin-bottom: 12px;
         font-size: 82px;
@@ -169,6 +172,7 @@ main {
   margin-top: -10px;
   width: 100%;
   background-color: #F0F3FC;
+  border-top: 3px solid rgba(128, 144, 3, 1);
   .sec1 {
     display: block;
     box-sizing: content-box;
