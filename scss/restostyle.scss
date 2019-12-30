@@ -1,7 +1,7 @@
-$titlesGreen: rgba(32, 133, 7, 1);
+$titlesGreen: rgba(55, 140, 1, 1);
 $titlesYellow: rgba(237, 200, 2, 1);
 $titlesOrangeA: rgba(227, 170, 11, 1);
-$titlesOrangeB: rgba(199, 89, 10, 1);
+$titlesOrangeB: rgba(207, 77, 10, 1);
 $titlesRed: rgba(173, 22, 0, 1);
 
 * {
@@ -15,16 +15,19 @@ body {
 
 a, h1, h4, h3 {
   font-family: Orbitron, sans-serif;
+  color: $titlesYellow;
+  text-shadow: 1px 1px 2px $titlesRed;
 }
 h5 {
-  font-family: Calligraffitti, sans-serif;
+  color: $titlesYellow;
+  text-shadow: 1px 1px 2px $titlesRed;
+  font-family: 'Julee', cursive;
+  font-style: italic;
+  font-weight: 700;
   letter-spacing: 2px;
 }
 h1 {
   text-transform: uppercase;
-}
-a, h4, h3 {
-  color: $titlesYellow;
 }
 a {
   font-size: 20px;
@@ -45,15 +48,23 @@ header {
   background-image: url(../img/header-02.jpg);
   background-repeat: no-repeat;
   background-blend-mode: darken;
+  #headertop {
+    margin-top: -10px;
+    border-top: 3px solid rgba(128, 128, 3, 0.8);
+    z-index: 1;
+  }
   .links {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    margin-top: 10px;
+    //width: 100%;
+    margin-top: 22px;
     padding: 6px 0 6px 0;
-    border-top: 3px solid rgba(128, 128, 3, 0.6);
-    border-bottom: 3px solid rgba(128, 128, 3, 0.6);
-    text-shadow: -1px 1px 2px $titlesGreen;
+    background-color: rgba(0, 0, 0, 0.6);
+    //background-color: rgba(112,128, 144, 0.4);
+    //background-color: rgba(66, 75, 84, 0.6);
+    //border-top: 3px solid rgba(128, 128, 3, 0.7);
+    //border-bottom: 3px solid rgba(128, 128, 3, 0.7);
+    border: 3px solid rgba(128, 128, 3, 0.7);
     .company {
       display: block;
       margin: 0 200px 0 40px;
@@ -86,58 +97,70 @@ header {
   }
   #webtitles {
     hgroup {
-      margin-top: 180px;
+      margin: 190px 292px 0 292px;
+      //margin-top: 176px;
+      padding-top: 26px;
+      padding-bottom: 58px;
       text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      //background-color: rgba(112, 128, 144, 0.6);
+      //background-color: rgba(66, 75, 84, 0.6);
+      //border-top: 3px solid rgba(128, 128, 3, 0.7);
+      //border-bottom: 3px solid rgba(128, 128, 3, 0.7);
+      border: 3px solid rgba(128, 128, 3, 0.7);
       .welcome {
-        color: $titlesOrangeA;
-        font-size: 55px;
+        margin-bottom: 12px;
+        font-size: 82px;
         letter-spacing: 4px;
-        text-shadow: 2px 2px 1px $titlesRed;
       }
+      /*
       .line-under1 {
-        height: 4px;
+        height: 5px;
         width: 260px;
         background-color: $titlesGreen;
         box-shadow: 1px 2px 0 $titlesRed;
         margin: -10px 0 50px 595px;
       }
+      */
       .line-above1, .line-under2 {
-        height: 6px;
-        width: 612px;
+        height: 7px;
+        width: 695px;
+        margin-left: 72px;
         background-color: $titlesGreen;
         box-shadow: 1px 2px 1px $titlesRed;
-        margin-left: 410px;
+        border-radius: 2px;
       }
       .line-above1 {
-        margin-bottom: -20px;
+        margin-bottom: -26px;
       }
       .name {
         margin-top: 20px;
         .fiasco {
-          font-size: 80px;
+          font-size: 90px;
           font-weight: 900;
-          color: $titlesRed;
-          text-shadow: 2px 2px 2px $titlesYellow;
+          color: $titlesGreen;
+          text-shadow: 2px 2px 2px $titlesRed;
           letter-spacing: 8px;
         }
       }
       .what {
-        font-size: 28px;
-        font-weight: 500;
-        letter-spacing: 8px;
-        text-transform: capitalize;
         margin-top: -8px;
-        color: #FFB408;
+        margin-left: -3px;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        text-transform: capitalize;
         text-shadow: 2px 2px 1px $titlesRed;
       }
       .line-under2 {
-        margin-top: 10px;
+        margin-top: 8px;
       }
     }
   }
   #headerfooter {
-    margin-top: 207px;
+    margin-top: 64px;
     border-bottom: 3px solid rgba(128, 128, 3, 0.8);
+    z-index: 1;
   }
 }
 
@@ -184,7 +207,6 @@ main {
         background-color: rgba(82, 81, 2, 0.2);
         .discover, .tasteful {
           font-size: 32px;
-          color: #FFB408;
           letter-spacing: 3px;
           text-shadow: 2px 1px 3px black;
         }
@@ -197,10 +219,8 @@ main {
         .gastronomy {
           margin-top: 40px;
           padding-left: 20px;
-          font-family: Orbitron, sans-serif;
           font-size: 24px;
           font-weight: 900;
-          color: black;
           letter-spacing: 3px;
         }
         .P1{
@@ -210,7 +230,7 @@ main {
         }
         .see-more1 {
           margin: 30px 80px 0 -40px;
-          padding: 10px 364px 10px 60px;
+          padding: 10px 364px 8px 60px;
           background-color: rgba(82, 81, 2, 0.5);
           border-top: 2px solid #FFB408;
           text-shadow: 2px 1px 2px black;
@@ -228,27 +248,29 @@ main {
       display: inline-block;
       float: left;
       margin: 100px 100px 60px 140px;
-      padding: 0 80px 10px 0;
-      height: 320px;
+      padding: 0 80px 14px 0;
+      height: 324px;
       width: 495px;
       .container-to-make {
-        margin: -10px -20px 0 20px;
+        margin: -10px -20px 4px 20px;
         padding-bottom: 7px;
         background-color: rgba(82, 81, 2, 0.2);
+        .tasteful, .recipes {
+          margin-top: 40px;
+          font-size: 32px;
+          font-weight: 900;
+          letter-spacing: 3px;
+        }
         .tasteful {
           background-color: rgba(82, 81, 2, 0.5);
           border-bottom: 4px solid #FFB408;
-          padding: 5px 0 0 40px;
+          padding: 5px 0 0 50px;
           width: 455px;
         }
         .recipes {
-          margin: 40px 0 0 40px;
+          margin-left: 40px;
           padding-right: 35px;
-          font-family: Orbitron, sans-serif;
           font-size: 24px;
-          font-weight: 900;
-          color: black;
-          letter-spacing: 3px;
           text-align: right;
         }
         .P2 {
@@ -258,7 +280,7 @@ main {
         }
         .see-more2 {
           margin-top: 40px;
-          padding: 10px 323px 10px 40px;
+          padding: 10px 313px 8px 50px;
           background-color: rgba(82, 81, 2, 0.5);
           border-top: 2px solid #FFB408;
           text-shadow: 2px 1px 2px black;
