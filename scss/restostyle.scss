@@ -15,15 +15,16 @@ body {
   width: 1440px;
 }
 
-a, h1, h4, h3 {
-  font-family: Orbitron, sans-serif;
+a, h1, h4, h5 {
+  font-family: 'Coiny', sans-serif;
   color: $titlesYellow;
   text-shadow: 1px 1px 2px $titlesRed;
 }
-h5 {
+h3 {
   color: $titlesYellow;
   text-shadow: 1px 1px 2px $titlesRed;
-  font-family: 'Julee', cursive;
+  font-family: 'Tillana', sans-serif;
+  //font-family: 'Julee', cursive;
   font-style: italic;
   font-weight: 700;
   letter-spacing: 2px;
@@ -32,7 +33,7 @@ h1 {
   text-transform: uppercase;
 }
 a {
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 2px;
   text-decoration: none;
 }
@@ -60,7 +61,7 @@ header {
     justify-content: space-around;
     //width: 100%;
     margin-top: 22px;
-    padding: 6px 0 6px 0;
+    padding-top:2px;
     background-color: rgba(0, 0, 0, 0.6);
     //background-color: rgba(112,128, 144, 0.4);
     //background-color: rgba(66, 75, 84, 0.6);
@@ -100,7 +101,7 @@ header {
   }
   #webtitles {
     hgroup {
-      margin: 190px 292px 0 292px;
+      margin: 164px 292px 0 292px;
       //margin-top: 176px;
       padding-top: 26px;
       padding-bottom: 58px;
@@ -112,8 +113,10 @@ header {
       //border-bottom: 3px solid rgba(128, 128, 3, 0.7);
       border: 3px solid rgba(128, 144, 3, 0.7);
       .welcome {
-        margin-bottom: 12px;
-        font-size: 82px;
+        margin-top: -14px;
+        margin-bottom: -8px;
+        font-family: 'Tillana', sans-serif;
+        font-size: 68px;
         letter-spacing: 4px;
       }
       /*
@@ -127,8 +130,8 @@ header {
       */
       .line-above1, .line-under2 {
         height: 7px;
-        width: 695px;
-        margin-left: 72px;
+        width: 700px;
+        margin-left: 70px;
         background-color: $titlesGreen;
         box-shadow: 1px 2px 1px $titlesRed;
         border-radius: 2px;
@@ -137,26 +140,27 @@ header {
         margin-bottom: -26px;
       }
       .name {
-        margin-top: 20px;
+        margin-top: 12px;
         .fiasco {
-          font-size: 90px;
+          font-size: 94px;
           font-weight: 900;
           color: $titlesGreen;
           text-shadow: 2px 2px 2px $titlesRed;
-          letter-spacing: 8px;
+          letter-spacing: 8.8px;
         }
       }
       .what {
-        margin-top: -8px;
-        margin-left: -3px;
-        font-size: 35px;
+        margin-top: -40px;
+        margin-left: -2px;
+        font-size: 36px;
         font-weight: 700;
-        letter-spacing: 7px;
+        letter-spacing: 7.2px;
         text-transform: capitalize;
         text-shadow: 2px 2px 1px $titlesRed;
       }
       .line-under2 {
-        margin-top: 8px;
+        margin-top: 2px;
+        margin-left: 72px;
       }
     }
   }
@@ -327,9 +331,10 @@ main {
       position: absolute;
       float: left;
       margin: 130px 0 0 600px;
-      color: #EB920A;
-      font-size: 66px;
-      font-weight: 900;
+      color: $titlesYellow;
+      font-family: 'Tangerine', sans-serif;
+      font-size: 77px;
+      font-weight: 700;
       letter-spacing: 4px;
       text-shadow: 2px 2px 4px rgba(82, 81, 2, 1);
     }
