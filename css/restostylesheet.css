@@ -25,9 +25,14 @@ a {
   letter-spacing: 2px;
   text-decoration: none; }
 
+.see-more {
+  font-size: 28px;
+  text-decoration: underline; }
+
 p {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-style: italic;
   font-size: 18px; }
 
 header {
@@ -35,7 +40,7 @@ header {
   width: 1440px;
   height: 692px;
   padding-top: 10px;
-  background-image: url(../img/header-02.jpg);
+  background-image: url(../img/header/header-02.jpg);
   background-repeat: no-repeat;
   background-blend-mode: darken; }
   header #headertop {
@@ -45,7 +50,7 @@ header {
   header .links {
     display: flex;
     justify-content: space-around;
-    margin-top: 22px;
+    margin-top: 18px;
     padding-top: 2px;
     background-color: rgba(0, 0, 0, 0.6);
     border: 3px solid rgba(128, 144, 3, 0.7); }
@@ -73,21 +78,12 @@ header {
       position: relative;
       margin: 0 40px 0 40px; }
   header #webtitles hgroup {
-    margin: 164px 292px 0 292px;
+    margin: 168px 292px 0 292px;
     padding-top: 26px;
     padding-bottom: 58px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-    border: 3px solid rgba(128, 144, 3, 0.7);
-    /*
-    .line-under1 {
-      height: 5px;
-      width: 260px;
-      background-color: $titlesGreen;
-      box-shadow: 1px 2px 0 $titlesRed;
-      margin: -10px 0 50px 595px;
-    }
-    */ }
+    border: 3px solid rgba(128, 144, 3, 0.7); }
     header #webtitles hgroup .welcome {
       margin-top: -14px;
       margin-bottom: -8px;
@@ -122,17 +118,13 @@ header {
     header #webtitles hgroup .line-under2 {
       margin-top: 2px;
       margin-left: 72px; }
-  header #headerfooter {
-    margin-top: 64px;
-    border-bottom: 3px solid rgba(128, 128, 3, 0.8);
-    z-index: 1; }
 
 main {
   display: block;
   margin-top: -10px;
   width: 100%;
-  background-color: #F0F3FC;
-  border-top: 3px solid #809003; }
+  background-color: #E6E9ED;
+  border-top: 4px solid #809003; }
   main .sec1 {
     display: block;
     box-sizing: content-box;
@@ -145,24 +137,24 @@ main {
       main .sec1 .aside-fast-food .b-border {
         float: left;
         margin: 50px 0 0 150px;
-        width: 317px;
-        height: 450px;
+        width: 352px;
+        height: 500px;
         background-color: rgba(82, 81, 2, 0.6); }
       main .sec1 .aside-fast-food .fish {
         position: relative;
-        margin: 70px -315px 0 -290px;
+        margin: 70px -315px 0 -320px;
         z-index: 1;
         border: 4px solid #FFB408;
         box-shadow: -2px -2px 20px black; }
     main .sec1 .fast-food {
       display: inline-block;
-      margin: 120px 0 0 80px;
+      margin: 120px 0 0 100px;
       padding: 0 0 20px 80px;
       float: left;
-      height: 320px;
-      width: 415px; }
+      height: 340px;
+      width: 580px; }
       main .sec1 .fast-food .container-fast-food {
-        margin: 20px 0 0 -140px;
+        margin: -10px 0 0 -140px;
         padding-left: 40px;
         padding-bottom: 7px;
         background-color: rgba(82, 81, 2, 0.2); }
@@ -181,17 +173,28 @@ main {
           font-size: 24px;
           font-weight: 900;
           letter-spacing: 3px; }
-        main .sec1 .fast-food .container-fast-food .P1 {
-          width: 445px;
-          margin: 20px 0 40px 0;
-          padding-left: 20px; }
-        main .sec1 .fast-food .container-fast-food .see-more1 {
-          margin: 30px 80px 0 -40px;
-          padding: 10px 364px 8px 60px;
+        main .sec1 .fast-food .container-fast-food .gastronomyTextBox {
+          display: block;
+          margin-bottom: 50px; }
+          main .sec1 .fast-food .container-fast-food .gastronomyTextBox .P1 {
+            width: 580px;
+            margin: 20px 0 20px 0;
+            padding-left: 20px; }
+        main .sec1 .fast-food .container-fast-food #seeMore1 {
+          margin: 0 80px 0 -40px;
+          padding: 12px 446px 14px 60px;
           background-color: rgba(82, 81, 2, 0.5);
           border-top: 2px solid #FFB408;
           text-shadow: 2px 1px 2px black;
           letter-spacing: 3px; }
+          main .sec1 .fast-food .container-fast-food #seeMore1:hover {
+            color: #FFB408;
+            border-top: 2px solid #ad1600;
+            border-bottom: 2px solid #ad1600;
+            background-color: #647303;
+            text-shadow: 2px 2px 3px #ad1600;
+            transition: background-color ease;
+            text-decoration: underline overline; }
   main .sec2 {
     display: block;
     box-sizing: content-box;
@@ -200,13 +203,13 @@ main {
     main .sec2 .to-make {
       display: inline-block;
       float: left;
-      margin: 100px 100px 60px 140px;
+      margin: 100px 0 60px 140px;
       padding: 0 80px 14px 0;
-      height: 324px;
-      width: 495px; }
+      height: 322px; }
       main .sec2 .to-make .container-to-make {
-        margin: -10px -20px 4px 20px;
+        margin: -10px 0 4px 20px;
         padding-bottom: 7px;
+        width: 723px;
         background-color: rgba(82, 81, 2, 0.2); }
         main .sec2 .to-make .container-to-make .tasteful, main .sec2 .to-make .container-to-make .recipes {
           margin-top: 40px;
@@ -216,67 +219,81 @@ main {
         main .sec2 .to-make .container-to-make .tasteful {
           background-color: rgba(82, 81, 2, 0.5);
           border-bottom: 4px solid #FFB408;
-          padding: 5px 0 0 50px;
-          width: 455px; }
+          padding: 5px 0 0 60px;
+          width: 662px; }
         main .sec2 .to-make .container-to-make .recipes {
-          margin-left: 40px;
-          padding-right: 35px;
+          padding-left: 60px;
+          padding-right: 60px;
           font-size: 24px;
           text-align: right; }
-        main .sec2 .to-make .container-to-make .P2 {
-          width: 420px;
-          margin: 30px 0 40px 40px;
-          text-align: right; }
-        main .sec2 .to-make .container-to-make .see-more2 {
+        main .sec2 .to-make .container-to-make .recipesTextBox {
+          width: 600px;
+          margin-bottom: 50px; }
+          main .sec2 .to-make .container-to-make .recipesTextBox .P2 {
+            width: 580px;
+            margin: 20px 0 20px 0;
+            padding-right: 60px;
+            text-align: right; }
+        main .sec2 .to-make .container-to-make #seeMore2 {
           margin-top: 40px;
-          padding: 10px 313px 8px 50px;
+          padding: 12px 448px 15px 60px;
           background-color: rgba(82, 81, 2, 0.5);
           border-top: 2px solid #FFB408;
           text-shadow: 2px 1px 2px black;
           letter-spacing: 3px; }
+          main .sec2 .to-make .container-to-make #seeMore2:hover {
+            color: #FFB408;
+            border-top: 2px solid #ad1600;
+            border-bottom: 2px solid #ad1600;
+            background-color: #647303;
+            text-shadow: 2px 2px 3px #ad1600;
+            transition: background-color ease;
+            text-decoration: underline overline; }
     main .sec2 .aside-to-make {
       display: inline-block;
       float: left; }
       main .sec2 .aside-to-make .pumpkin {
-        margin: 30px 0 0 -164px;
+        height: 500px;
+        margin: 100px 0 0 -82px;
         position: relative;
         z-index: 1;
         border: 4px solid #FFB408;
         box-shadow: 2px 2px 20px black;
         float: left; }
       main .sec2 .aside-to-make .p-border {
-        margin: 10px -100px 0 -130px;
-        width: 367px;
-        height: 450px;
+        margin: 80px -100px 0 -48px;
+        width: 358px;
+        height: 508px;
         background-color: rgba(82, 81, 2, 0.6); }
 
 .in-between-1 {
   display: inline-block; }
   .in-between-1 .pizza1 {
     width: 100%;
-    margin: 80px 0; }
+    margin: 120px 0  100px 0; }
     .in-between-1 .pizza1 .end-page1 {
-      border-top: 4px solid #FFB408;
-      border-bottom: 4px solid #FFB408;
+      border-top: 6px solid #809003;
+      border-bottom: 6px solid #809003;
       float: left; }
     .in-between-1 .pizza1 .life-is {
       position: absolute;
       float: left;
-      margin: 130px 0 0 600px;
+      margin: 120px 0 0 60px;
       color: #edc802;
       font-family: 'Tangerine', sans-serif;
-      font-size: 77px;
+      font-size: 101px;
       font-weight: 700;
-      letter-spacing: 4px;
-      text-shadow: 2px 2px 4px #525102; }
+      letter-spacing: 2.4px;
+      text-shadow: 2px 2px 4px #ad1600; }
     .in-between-1 .pizza1 .line-in1 {
       position: absolute;
       float: left;
-      margin: 206px 0 0 260px;
+      margin: 228px 0 0 60px;
       height: 4px;
-      width: 880px;
-      background-color: #EB920A;
-      box-shadow: 2px 2px 4px #525102; }
+      width: 808px;
+      border-radius: 2px;
+      background-color: #e3aa0b;
+      box-shadow: 2px 2px 4px #ad1600; }
 
 .sec3 {
   display: inline-block;
