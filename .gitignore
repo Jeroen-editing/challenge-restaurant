@@ -3,3 +3,6 @@
 .sass-cache
 .sass/
 
+.DS_store
+
+stylesheet.css.map
